@@ -1,5 +1,5 @@
 module.exports = {
-  prefix: '',
+  prefix: ''
   important: false,
   separator: ':',
   theme: {
