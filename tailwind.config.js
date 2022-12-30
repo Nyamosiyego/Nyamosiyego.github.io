@@ -63,6 +63,7 @@ module.exports = {
         700: '#2f855a',
         800: '#276749',
         900: '#22543d',
+        1000: '#006666',
       },
       teal: {
         100: '#e6fffa',
@@ -244,7 +245,7 @@ module.exports = {
     },
     borderColor: theme => ({
       ...theme('colors'),
-      default: theme('colors.gray.300', 'currentColor'),
+      default: theme('colors.black', 'currentColor'),
     }),
     borderRadius: {
       none: '0',

@@ -5,26 +5,26 @@
 
         <div class="flex items-center justify-between mb-6">
             <div>
-                <h2 class="text-gray-700 uppercase font-bold">Attendance Report</h2>
+                <h2 class="text-black uppercase font-bold">Attendance Report</h2>
             </div>
             <div class="flex flex-wrap items-center">
-                <a href="{{ route('home') }}" class="bg-gray-700 text-white text-sm uppercase py-2 px-4 flex items-center rounded">
+                <a href="{{ route('home') }}" class="bg-blue-900 text-white text-sm uppercase py-2 px-4 flex items-center rounded">
                     <svg class="w-3 h-3 fill-current" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="long-arrow-alt-left" class="svg-inline--fa fa-long-arrow-alt-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z"></path></svg>
                     <span class="ml-2 text-xs font-semibold">Back</span>
                 </a>
             </div>
         </div>
-        <!-- Log on to codeastro.com for more projects -->
+        
         <div class="w-full mt-8 bg-white rounded">
             <form action="{{ route('attendance.index') }}" method="GET" class="md:flex md:items-center md:justify-between px-6 py-6 pb-0">
                 <div class="md:flex md:items-center mb-6 text-gray-700 uppercase font-bold">
                     <div>
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Report:
                         </label>
                     </div>
                     <div class="flex flex-row items-center bg-gray-200 px-4 py-3 rounded">
-                        <label class="block text-gray-600 font-bold">
+                        <label class="block text-gray-700 font-bold">
                             <input name="type" class="mr-2 leading-tight" type="radio" value="class" checked>
                             <span class="text-sm">Class</span>
                         </label>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6 text-gray-700 uppercase font-bold">
                     <div>
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-black font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Month
                         </label>
                     </div>
@@ -55,10 +55,10 @@
                     </div>
                 </div>
                 <div class="md:flex md:items-center mb-6 text-gray-700 uppercase font-bold">
-                    <button class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">Generate</button>
+                    <button class="shadow bg-red-900 hover:bg-blue-900 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded" type="submit">Generate</button>
                 </div>
             </form>
-            <!-- Log on to codeastro.com for more projects -->
+           
             <div class="w-full px-6 py-6">
                 @foreach ($attendances as $classid => $datevalues)
                     <h2 class="bg-gray-600 text-white font-semibold uppercase px-4 py-3">
@@ -88,6 +88,6 @@
                 @endforeach
             </div>   
         </div>
-        <!-- Log on to codeastro.com for more projects -->
+        
     </div>
 @endsection

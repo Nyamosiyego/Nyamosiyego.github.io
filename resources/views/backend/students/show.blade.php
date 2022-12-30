@@ -5,7 +5,7 @@
 
         <div class="flex items-center justify-between mb-6">
             <div>
-                <h2 class="text-gray-700 uppercase font-bold">Student Details</h2>
+                <h2 class="text-gray-900 uppercase font-bold">Student Details</h2>
             </div>
             <div class="flex flex-wrap items-center">
                 <a href="{{ route('student.index') }}" class="bg-gray-700 text-white text-sm uppercase py-2 px-4 flex items-center rounded">
@@ -14,7 +14,7 @@
                 </a>
             </div>
         </div>
-        <!-- Log on to codeastro.com for more projects -->
+       
 
 
 
@@ -31,7 +31,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Name : 
                         </label>
                     </div>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Email :
                         </label>
                     </div>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Roll :
                         </label>
                     </div>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Phone :
                         </label>
                     </div>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Gender :
                         </label>
                     </div>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Date of Birth :
                         </label>
                     </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Current Address :
                         </label>
                     </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Permanent Address :
                         </label>
                     </div>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Class :
                         </label>
                     </div>
@@ -119,10 +119,10 @@
                         <span class="text-gray-600 font-bold">{{ $student->class->class_name }}</span>
                     </div>
                 </div>
-                <!-- Log on to codeastro.com for more projects -->
+                
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Student's Parent :
                         </label>
                     </div>
@@ -132,7 +132,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Parent's Email :
                         </label>
                     </div>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Parent's Phone :
                         </label>
                     </div>
@@ -152,7 +152,7 @@
                 </div>
                 <div class="md:flex md:items-center mb-6">
                     <div class="md:w-1/3">
-                        <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4">
+                        <label class="block text-gray-900 font-bold md:text-right mb-1 md:mb-0 pr-4">
                             Parent's Address :
                         </label>
                     </div>
@@ -181,6 +181,6 @@
                 </div>
             </div>        
         </div>
-        <!-- Log on to codeastro.com for more projects -->
+        
     </div>
 @endsection
