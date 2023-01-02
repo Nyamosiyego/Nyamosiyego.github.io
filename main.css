@@ -1,0 +1,273 @@
+body, html {
+    height: 100%;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("https://i.pinimg.com/564x/38/de/80/38de80740beac0ca0508a66a125160c5.jpg");
+  
+    /* Full height */
+    height: 600px;
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+    font-style: oblique;
+    font-size:x-large;
+}
+
+  body{
+    border: 10px ;
+  padding: 50px;
+  
+}
+
+img{
+  border: 5px solid;
+   padding: 5px;
+   margin: 30px; 
+   margin-bottom: 15px;
+   margin-left: 50px;
+
+}
+
+span{
+margin-left: 150px;
+
+}
+
+.position{
+
+  margin-left: auto; 
+  margin-right: auto;
+  
+  background-color:lightseagreen;
+
+}
+
+.motto{
+
+  margin-left: auto; 
+  margin-right: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+
+/*calendar*/
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 50%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
+
+
+/*application icons*/
+.icons{
+  align-content: center;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.icons-cart{
+  align-self: center;
+  color: white;
+}
+.icons-twitter{
+  background:blue;
+  color: white;
+}
+.icons-paypal{
+  background:blue;
+  color: white;
+}
+.icons-facebook{
+  background:steelblue;
+  color: white;
+}
+.icons-instagram{
+  background:crimson;
+  color: white;
+}
+.icons-bolt{
+  background:green;
+  color: white;
+}
+.icons-whatsapp{
+  background:green;
+  color: white;
+}
+
+
+/*donar icons*/
+
+.icons2{
+  align-content: center;
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 50px;
+  border-radius: 50%;
+  
+}
+.icons2-cart{
+  align-self: center;
+  color: white;
+}
+.icons2-twitter{
+  background:blue;
+  color: white;
+}
+.icons2-paypal{
+  background:blue;
+  color: white;
+}
+.icons2-facebook{
+  background:steelblue;
+  color: white;
+}
+.icons2-instagram{
+  background:crimson;
+  color: white;
+}
+.icons2-bolt{
+  background:green;
+  color: white;
+}
+.icons2-whatsapp{
+  background:green;
+  color: white;
+}
+
+/* newsletter table*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.color{
+  background-color:lightseagreen;
+}
+
+h5{
+  text-align: center;
+  font-style: oblique;
+}
+
+.positionnews{
+
+  margin-left: auto; 
+  margin-right: auto;
+  background-color:lightpink;
+
+}
+
+.visionabout{
+  text-align: center;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
